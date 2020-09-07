@@ -1,7 +1,6 @@
 import React from 'react'
 import reactDom from 'react-dom'
-
-
+import { Button } from 'antd-mobile'
 reactDom.render(
-    <div>hello would!</div>,document.getElementById('root')
+    <Button type='primary'>click me</Button>,document.getElementById('root')
 )
